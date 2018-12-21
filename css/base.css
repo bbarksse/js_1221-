@@ -1,0 +1,17 @@
+html, body { 
+	margin: 0; 
+	padding: 0; 
+	height: 100%/*풀페이지 사이즈 때문이라는데 뭔지 모르겟다*/; 
+	box-sizing: border-box;
+	font-size: 16px;
+}
+div,ul,li,p,h1,h2,h3,h4,h5{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/*공통클래스*/
+.img{ width: 100%;}
+.clear{ clear: both;}
+.clear:after{ clear: both; display: block; content: "";}
